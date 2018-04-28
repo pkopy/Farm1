@@ -1,5 +1,7 @@
 package farm;
 
+//Krzysztof: to moja zmiana
+
 import java.time.LocalDateTime;
 
 public class Animal {
@@ -50,4 +52,10 @@ public class Animal {
     public String toString() {
         return species + ':' + animalId + ':' +  age + ':'  + isGraft;
     }
+    
+    public void showMe()
+    {
+        System.out.println("To ja!");
+    }
+
 }
